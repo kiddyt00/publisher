@@ -31,6 +31,9 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'simplepro',
+    'simpleui',
+    'import_export',
     'rest_framework',
     'rest_framework.authtoken',
     'django.contrib.admin',
@@ -56,6 +59,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # 加入simplepro的中间件
+    'simplepro.middlewares.SimpleMiddleware'
 ]
 
 ROOT_URLCONF = 'publisher.urls'
