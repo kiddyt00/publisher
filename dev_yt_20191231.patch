@@ -1,0 +1,14 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(revision fa6bf2c85d119d777ec625cd63a725ea84470f8d)
++++ README.md	(date 1577756726936)
+@@ -1,2 +1,3 @@
+ # readme 
+-#### 第一次上传
+\ No newline at end of file
++#### 第一次上传
++#### 创建新分支
+\ No newline at end of file
